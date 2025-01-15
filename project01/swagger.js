@@ -6,6 +6,7 @@ const doc = {
         description: 'Contacts API'
     },
     host: 'localhost:3000',
+    // host: 'cse-341-project01-bmqt.onrender.com',
     schemes: ['http', 'https']
 };
 
