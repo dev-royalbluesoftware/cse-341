@@ -8,13 +8,15 @@
   "host": "localhost:3000",
   "basePath": "/",
   "schemes": [
-    "https",
-    "http"
+    "http",
+    "https"
   ],
   "paths": {
     "/": {
       "get": {
-        "tags": [],
+        "tags": [
+          "Hello World"
+        ],
         "description": "",
         "responses": {
           "200": {
@@ -23,19 +25,11 @@
         }
       }
     },
-    "/api-docs": {
-      "get": {
-        "description": "",
-        "responses": {
-          "default": {
-            "description": ""
-          }
-        }
-      }
-    },
     "/contacts/": {
       "get": {
-        "tags": [],
+        "tags": [
+          "Contacts"
+        ],
         "description": "",
         "produces": [
           "application/json"
@@ -47,7 +41,9 @@
         }
       },
       "post": {
-        "tags": [],
+        "tags": [
+          "Contacts"
+        ],
         "description": "",
         "parameters": [
           {
@@ -87,7 +83,9 @@
     },
     "/contacts/{id}": {
       "get": {
-        "tags": [],
+        "tags": [
+          "Contacts"
+        ],
         "description": "",
         "produces": [
           "application/json"
@@ -107,7 +105,9 @@
         }
       },
       "put": {
-        "tags": [],
+        "tags": [
+          "Contacts"
+        ],
         "description": "",
         "parameters": [
           {
@@ -151,7 +151,9 @@
         }
       },
       "delete": {
-        "tags": [],
+        "tags": [
+          "Contacts"
+        ],
         "description": "",
         "parameters": [
           {
